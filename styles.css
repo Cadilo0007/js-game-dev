@@ -192,23 +192,25 @@ hr{
 	background-size: 100% 100%;
 }
 
-footer{
-	background-color: #B7DFF2;
+footer {
+	background-color: #0047AB;
 	margin: 0 auto;
 	width: 90vw;
 	max-width: 400px;
-	display: flex;
+	display:flex;
 	justify-content: center;
 	align-items: center;
 	padding: 10px 5px;
 }
 
-.fa-brands, .fa-solid{
-	color: blue;
-	margin: 0 10px;
-	font-size: 25px;
+img{
+	color: white;
+	display: inline-flex;
+	padding: 0;
+	margin: 0;
 }
-.fa-brands:hover, .fa-solid: hover{
+
+img:hover{
 	color: gray;
 }
 
